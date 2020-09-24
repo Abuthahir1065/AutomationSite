@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+          <class name="com.atmecs.automationSite.Automation_Site"/>
+          <class name="com.atmecs.automationSite.Facebook"/>
+    
+      <class name="com.atmecs.automationSite.Twitter"/>
+      <class name="com.atmecs.automationSite.GooglePlus"/>
+      <class name="com.atmecs.automationSite.Youtube"/>
+            <class name="com.atmecs.automationSite.LinkedIn"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
