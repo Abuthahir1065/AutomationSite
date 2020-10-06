@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.atmecs.automationSite.GooglePlus">
+        <methods>
+          <include name="declaration"/>
+          <include name="closeBrowser"/>
+          <include name="gplus"/>
+        </methods>
+      </class> <!-- com.atmecs.automationSite.GooglePlus -->
       <class name="com.atmecs.automationSite.LinkedIn">
         <methods>
           <include name="declaration"/>
@@ -10,13 +17,20 @@
           <include name="gplus"/>
         </methods>
       </class> <!-- com.atmecs.automationSite.LinkedIn -->
-      <class name="com.atmecs.automationSite.Youtube">
+      <class name="com.atmecs.automationSite.Facebook">
         <methods>
           <include name="declaration"/>
           <include name="closeBrowser"/>
-          <include name="youtube"/>
+          <include name="facebook"/>
         </methods>
-      </class> <!-- com.atmecs.automationSite.Youtube -->
+      </class> <!-- com.atmecs.automationSite.Facebook -->
+      <class name="com.atmecs.automationSite.Twitter">
+        <methods>
+          <include name="declaration"/>
+          <include name="closeBrowser"/>
+          <include name="twitter"/>
+        </methods>
+      </class> <!-- com.atmecs.automationSite.Twitter -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
